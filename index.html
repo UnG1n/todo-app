@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <title>Todo app</title>
+</head>
+<body class = "backgroundColor" id = "background">
+  <div class="backgroundImage"></div>
+  <div class = "container">
+    <div class = "headerContainer">
+      <h1>T O D O</h1>
+      <button class="themeButton" id = "themeButton">
+        <img class = "themeIcon" src = "images/icon-moon.svg" alt = "Moon">
+      </button>
+    </div>
+    <div class = "todoContainer">
+      <form class = "inputForm" id = "inputForm">
+          <input type = "text" id = "input" placeholder = "Create a new todo...">
+      </form>
+    </div>
+    <div id="tasks" class = "todoContainer">
+      <div id="taskList"></div>
+      <div class = "ListContainer">
+        <p class = "Counter" id="counter">items left</p>
+        <button class = "listButton1" id = "all">All</button>
+        <button class = "listButton1" id = "active">Active</button>
+        <button class = "listButton1" id = "completed">Completed</button>
+        <button class = "listButton2" id = "clearCompleted">Clear Completed</button>
+      </div>
+    </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/UnG1n" target="_blank">Vladimir Baryshnikov</a>.
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
